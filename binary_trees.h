@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stddef.h>  /* For size_t */
 
 /**
  * struct binary_tree_s - Binary tree node
