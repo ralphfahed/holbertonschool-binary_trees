@@ -22,10 +22,11 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	/* Measure the height of the right subtree */
 	right_height = binary_tree_height(tree->right);
 
+	/* Return the greater height plus 1 for the current node */
 	if (left_height > right_height)
 	{
-		return (left_height);
+		return (1 + left_height);  /* Add 1 to account for the current node */
 	}
-	return (right_height);
+	return (1 + right_height);  /* Add 1 to account for the current node */
 }
 
