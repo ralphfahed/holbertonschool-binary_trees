@@ -7,6 +7,10 @@
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
+/* lezem jib height
+ * byerja3 size
+ * berja3 b2arenoun bi ba3d lezem yotla3o =
+ */
 	size_t left_height, right_height;
 
 	if (tree == NULL)
